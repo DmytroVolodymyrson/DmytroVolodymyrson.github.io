@@ -1,0 +1,1066 @@
+@media screen and (min-width: 1340px) {
+  .header {
+    &__nav {
+      font-size: 18px;
+    }
+  }
+  .login {
+    &__title {
+      font-size: 45px;
+    }
+  }
+  .menu {
+    .fixed {
+      max-width: 1268px;
+    }
+
+    &__sublist {
+      font-size: 45px;
+    }
+  }
+  .number-card {
+    &__descr {
+      font-size: 15px;
+    }
+  }
+  .slide-1{
+    &__descr{
+      font-size: 20px;
+    }
+  }
+  .job-card{
+    &__title{
+      font-size: 24px;
+    }
+  }
+  .news-card{
+    &__title{
+      font-size: 24px;
+    }
+    &__date{
+      font-size: 18px;
+    }
+  }
+}
+@media screen and (min-width: 1590px) {
+  .section_9{
+    .fixed{
+      max-width:  1672px;
+    }
+  }
+  .job-card{
+    &__title{
+      font-size: 28px;
+    }
+    &__link{
+      font-size: 18px;
+    }
+  }
+  .news-card{
+    &__title{
+      font-size: 28px;
+    }
+  }
+}
+@media screen and (min-width: 1084px) {
+  .number-card {
+    &__descr {
+      font-size: 15px;
+    }
+  }
+}
+
+@include media(1750) {
+  .menu {
+    &__login {
+      min-width: 0;
+    }
+  }
+  .login {
+    flex-direction: column;
+    align-items: flex-start;
+
+    &__title {
+      margin-bottom: 10px;
+    }
+
+    &__email {
+      width: auto;
+    }
+  }
+}
+
+@include media(1590) {
+  .footer{
+    padding: 370px 0 50px 0;
+    &__title{
+      margin-bottom: 70px;
+    }
+    &__form{
+      column-gap: 100px;
+      row-gap: 50px;
+    }
+    &__input{
+      font-size: 28px;
+      &::placeholder{
+        font-size: 30px;
+      }
+    }
+    &__btn{
+      font-size: 35px;
+    }
+    &__message{
+      height: 130px;
+    }
+    &__bg-rect--mobile{
+      display: block;
+    }
+    &__bg-rect--desktop{
+      display: none;
+    }
+  }
+  .section_8{
+    padding: 46px 0 100px 0;
+  }
+  .section_4 {
+    padding: 100px 0;
+  }
+  .section_5 {
+    margin-bottom: -50px;
+
+    .s5 {
+      .section_5 {
+        .s5 {
+          &__pattern {
+            right: -140px;
+            bottom: -130px;
+            max-width: 300px;
+          }
+        }
+      }
+    }
+  }
+  .fixed_2 {
+    padding: 0 30px;
+  }
+  .section_2 {
+    padding: 100px 0;
+  }
+  .number-card-list {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+  }
+  .section_3 {
+    .s3 {
+      &__bg {
+        padding: 100px 0 72px 0;
+      }
+
+      &__list {
+        margin: 0 auto;
+        max-width: 70%;
+      }
+    }
+  }
+  .title {
+    font-size: 40px;
+  }
+  .menu {
+
+    &__main-block {
+      padding: 150px 0 50px 0;
+    }
+
+    &__main-nav {
+      font-size: 50px;
+    }
+
+    &__main-list {
+      & > li {
+        &:not(:last-child) {
+          margin-bottom: 20px;
+        }
+      }
+    }
+
+    &__sublist {
+      padding-left: 100px;
+
+      & > li {
+        &:not(:last-child) {
+          margin-bottom: 10px;
+        }
+      }
+    }
+
+    &__second-block {
+      padding-left: 100px;
+
+    }
+  }
+  .section_6 {
+    padding-bottom: 100px;
+    .s6 {
+      &__text-block {
+        max-width: 646px;
+      }
+
+      &__slider-wrapper {
+      }
+    }
+  }
+  .slider-vertical {
+    .video-slide {
+      margin: 0 140px;
+    }
+  }
+}
+
+@include media(1340) {
+
+  .section_10{
+    padding: 100px 0 60px 0 ;
+    .s10{
+      &__title-block{
+        margin-bottom:50px;
+      }
+    }
+  }
+  .news-card-list{
+    grid-auto-rows: 200px;
+    row-gap: 60px;
+  }
+  .news-card{
+    &__title{
+      margin-bottom: 20px;
+    }
+    &_big{
+      .news-card__cont{
+        margin:  0 0 -35px -31px;
+      }
+    }
+    &__cont{
+      padding: 20px;
+      margin: 0 -45px -35px 0;
+    }
+  }
+  .section_9{
+    .s9{
+      &__title-block{
+        margin-bottom: 30px;
+      }
+      &__pattern{
+        max-width: 270px;
+        left: -80px;
+        bottom: -150px;
+      }
+      &__bg{
+        padding: 70px 0 150px 0 ;
+      }
+      &__form-wrapper{
+        max-width: 564px;
+      }
+      &__form{
+        max-width: 319px;
+
+      }
+    }
+  }
+  .job-card-list{
+    gap: 40px;
+  }
+  .job-card{
+    &__title{
+      margin-bottom: 20px;
+    }
+    &__descr{
+      margin-bottom: 20px;
+    }
+    &__details{
+      margin-bottom: 20px;
+    }
+  }
+  .card-text{
+    padding: 60px 20px;
+  }
+  .card-form{
+    padding: 70px 50px;
+    margin-top: -110px;
+  }
+  .section_8{
+    padding: 46px 0 70px 0;
+    .s8{
+      &__list{
+        gap: 80px;
+      }
+    }
+  }
+  .section_7{
+    padding: 70px 0;
+    .s7{
+      &__slider{
+        max-width: 445px;
+      }
+    }
+  }
+  .slide-1{
+    &__descr{
+      margin-bottom: 30px;
+    }
+  }
+  .section_6 {
+    padding-bottom: 70px;
+    .s6 {
+      &__text-block {
+        max-width: 556px;
+        padding: 30px 40px;
+      }
+
+      &__pagination {
+        left: 50px;
+      }
+    }
+  }
+  .slider-vertical {
+    .video-slide {
+      margin: 0 110px;
+    }
+  }
+  .section_5 {
+    .s5 {
+      &__bg {
+        padding: 70px 0;
+      }
+
+      &__pattern {
+        right: -120px;
+        bottom: -120px;
+        max-width: 250px;
+      }
+    }
+  }
+  .section_4 {
+    padding: 70px 0;
+  }
+  .bg-body {
+    top: 1200px;
+  }
+  .card-1-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .card-1{
+    min-height: 257px;
+  }
+  .number-card {
+    &__title {
+      margin-bottom: 20px;
+    }
+  }
+  .section_3 {
+    .s3 {
+      &__bg {
+        padding: 70px 0;
+      }
+    }
+  }
+  .section_2 {
+    padding: 70px 0;
+
+    .s2 {
+      &__img {
+        max-width: 250px;
+      }
+
+      &__pattern {
+        max-width: 100px;
+        top: -40px;
+        left: -100px;
+      }
+
+      &__text-block {
+        max-width: 528px;
+      }
+
+      &__descr-block {
+        margin-bottom: 25px;
+      }
+    }
+  }
+  .menu {
+    &__main-block {
+      padding-top: 100px;
+      width: 40.88%;
+    }
+
+    &__main-list {
+      font-size: 35px;
+
+      & > li {
+        &:not(:last-child) {
+          margin-bottom: 15px;
+        }
+      }
+    }
+
+    &__sublist {
+      padding-left: 50px;
+
+      & > li {
+        &:not(:last-child) {
+          margin-bottom: 7px;
+        }
+      }
+    }
+
+    &__second-block {
+      padding-left: 50px;
+
+    }
+  }
+  .title {
+    font-size: 35px;
+  }
+  .title-main {
+    font-size: 60px;
+    line-height: 70px;
+  }
+  .descr-title {
+    font-size: 20px;
+  }
+  .first {
+    min-height: 500px;
+    height: calc(100vh - 69px);
+    &__title-block {
+      max-width: 720px;
+    }
+
+    &__descr-block {
+      margin-bottom: 30px;
+    }
+  }
+  .header {
+    padding: 15px 0;
+
+    &__logo {
+      max-width: 150px;
+    }
+  }
+  body {
+    padding-top: 69px;
+  }
+  .hamburger {
+    width: 50px;
+  }
+}
+
+@include media(1084) {
+  .footer{
+    padding: 350px 0 50px 0;
+  }
+  .news-card-list{
+    grid-auto-rows: 150px;
+  }
+  .news-card{
+    &_big{
+      .news-card__cont{
+        margin: 0 0 -20px -20px ;
+      }
+    }
+    &__title{
+      margin-bottom: 10px;
+    }
+    &__cont{
+      padding: 15px ;
+      margin: 0 -20px -20px 0;
+    }
+  }
+  .section_9{
+    .s9{
+      &__pattern{
+        max-width: 200px;
+        bottom: -100px;
+      }
+      &__form-wrapper{
+        max-width: 100%
+      }
+      &__form{
+        max-width: 339px;
+      }
+      &__bg{
+        padding: 50px 0 100px 0;
+      }
+      &__title{
+        margin-bottom: 20px;
+      }
+      &__title-block{
+        flex-direction: column;
+        margin-bottom: 30px;
+      }
+    }
+  }
+  .job-card-list{
+    grid-template-columns: repeat(2,1fr);
+  }
+  .card-text{
+    padding: 40px 20px;
+  }
+  .card-form{
+    padding: 50px 30px;
+    margin-top: -80px;
+    &__form{
+      margin-bottom: 30px;
+    }
+  }
+  .section_8{
+    .s8{
+      &__list{
+        gap: 40px;
+      }
+    }
+  }
+  .section_7{
+    .s7{
+      &__title-block{
+        max-width: 217px;
+      }
+    }
+  }
+  .section_6 {
+
+    .s6 {
+      &__text-block {
+        max-width: 100%;
+        margin-bottom: 30px;
+      }
+
+      &__row {
+        flex-direction: column;
+      }
+
+      &__slider-wrapper {
+        margin-left: 0;
+        width: 100%;
+      }
+    }
+  }
+  .slider-vertical {
+    .video-slide {
+      margin: 0;
+
+      &__video {
+        max-width: 250px;
+      }
+    }
+  }
+  .section_5 {
+    margin-bottom: -100px;
+
+    .s5 {
+      &__pattern {
+        right: -100px;
+        bottom: -100px;
+        max-width: 200px;
+      }
+    }
+  }
+  .bg-body {
+    top: 1000px;
+  }
+  .number-card {
+    &__title {
+      margin-bottom: 15px;
+    }
+  }
+  .section_3 {
+    .s3 {
+      &__list {
+        max-width: 80%;
+      }
+    }
+  }
+  .section_2 {
+    .s2 {
+      &__img {
+        max-width: 200px;
+      }
+
+      &__pattern {
+        max-width: 80px;
+        top: -30px;
+        left: -80px;
+      }
+
+      &__text-block {
+        max-width: 398px;
+      }
+    }
+  }
+  .menu {
+    &__main-list {
+      & > li {
+        &:not(:last-child) {
+          margin-bottom: 10px;
+        }
+      }
+    }
+
+    &__login-form {
+      grid-template-columns: repeat(2, 1fr);
+      row-gap: 20px;
+
+      .login {
+        &__email {
+          grid-column-end: span 3;
+        }
+      }
+    }
+  }
+  body {
+    padding-top: 61px;
+  }
+  .btn {
+    font-size: 16px;
+  }
+  .title {
+    font-size: 30px;
+  }
+  .title-main {
+    font-size: 50px;
+    line-height: 60px;
+  }
+  .first {
+    min-height: auto;
+    height: calc(100vh - 61px);
+    &__title-block {
+      margin-bottom: 20px;
+      max-width: 570px;
+
+    }
+
+    &__descr-block {
+
+      max-width: 410px;
+
+    }
+  }
+  .hamburger {
+    height: 20px;
+    width: 40px;
+
+    span {
+      height: 4px;
+    }
+  }
+  .header {
+    &__menu-block {
+      column-gap: 30px;
+    }
+
+    &__nav {
+      margin-left: -25px;
+
+      a {
+        margin-left: 25px;
+      }
+    }
+
+    &__logo {
+      max-width: 120px;
+    }
+  }
+  .descr-title {
+    font-size: 18px;
+  }
+  .descr {
+    font-size: 14px;
+  }
+}
+
+@include media(798) {
+  .paroller{
+    display: none;
+  }
+  .slider-vertical{
+    .video-slide{
+      &:after{
+        font-size: 60px;
+      }
+    }
+  }
+  .footer{
+    padding: 300px 0 50px 0;
+    &__form{
+      gap: 50px;
+    }
+    &__input{
+      font-size: 20px;
+      &::placeholder{
+        font-size: 20px;
+      }
+    }
+    &__btn{
+      font-size: 30px;
+    }
+    &__title{
+      margin-bottom: 50px;
+    }
+    &__message{
+      height: 100px;
+    }
+  }
+  .section_10{
+    padding: 50px 0;
+  }
+  .news-card-list{
+    grid-template-columns: 1fr;
+    grid-auto-rows: minmax(150px,auto);
+  }
+  .news-card{
+    justify-content: flex-start;
+    &__cont{
+      margin: 0 0 -20px 0;
+    }
+    &_big{
+      grid-row-end: 2;
+      .news-card__cont{
+        width: 80%;
+        margin: 0 0 -20px 0;
+      }
+    }
+  }
+  .fixed_2 {
+    padding: 0 15px;
+  }
+  .card-form{
+    margin-top: 0;
+  }
+  .section_8{
+    padding: 46px 0 50px 0;
+    .s8{
+      &__list{
+        grid-template-columns: 1fr;
+      }
+    }
+  }
+  .section_6{
+    padding-bottom: 50px;
+  }
+  .section_7{
+    padding: 50px 0;
+    .s7{
+      &__title-block{
+        margin: 0 0 30px 0;
+        max-width: 100%;
+      }
+      &__slider{
+        order: 2;
+        max-width: 100%;
+      }
+      &__row{
+        flex-direction: column;
+      }
+    }
+  }
+  .section_5 {
+    .s5 {
+      &__pattern {
+        right: -80px;
+        bottom: -80px;
+        max-width: 150px;
+      }
+
+      &__title {
+        margin-bottom: 30px;
+      }
+    }
+  }
+  .section_4 {
+    .s4 {
+      &__title {
+        margin-bottom: 20px;
+      }
+    }
+  }
+  .number-card {
+    &__title {
+      margin-bottom: 10px;
+    }
+  }
+  .section_2 {
+    .s2 {
+      &__row {
+        flex-direction: column;
+      }
+
+      &__img {
+        max-width: 180px;
+      }
+
+      &__title {
+        margin-bottom: 15px;
+      }
+
+      &__title-block {
+        max-width: 100%;
+        margin-bottom: 20px;
+      }
+
+      &__pattern{
+        display: none;
+      }
+      &__text-block {
+        max-width: 100%;
+      }
+    }
+  }
+  .menu {
+    &__inner {
+      flex-direction: column;
+    }
+
+    &__main-block {
+      width: 100%;
+      padding: 80px 0 50px 0;
+
+      &:after {
+        right: -100%;
+      }
+    }
+
+    &__second-block {
+      padding: 50px 0;
+      width: 100%;
+      margin-top: auto;
+    }
+
+    &__main-list {
+      font-size: 30px;
+    }
+
+    &__sublist {
+      position: static;
+      width: auto;
+      padding-left: 30px;
+
+      &.active {
+        transform: none;
+      }
+    }
+  }
+  body {
+    padding-top: 56px;
+  }
+  .title-main {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .title {
+    font-size: 25px;
+  }
+  .header {
+    &__logo {
+      max-width: 100px;
+    }
+
+    &__menu-block {
+      display: block;
+    }
+
+    &__nav {
+      display: none;
+    }
+  }
+  .btn {
+    font-size: 14px;
+  }
+  .first {
+    min-height: calc(100vh - 56px);
+    padding: 30px 0;
+  }
+}
+
+@include media(576) {
+  .btn {
+    width: 100%;
+  }
+  .footer{
+    &__form{
+      grid-template-columns: 1fr;
+    }
+    &__message,&__btn{
+      grid-column-start: 1;
+      grid-column-end: 2;
+    }
+  }
+  .section_10{
+    .s10{
+      &__title-block{
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 30px;
+      }
+      &__title{
+        margin-bottom: 15px;
+      }
+    }
+  }
+  .section_9{
+    .s9{
+      &__bg{
+        padding: 50px 0 70px 0;
+      }
+      &__pattern{
+        max-width: 150px;
+        left: -50px;
+        bottom: -70px;
+      }
+      &__form{
+        margin-bottom: 15px;
+        max-width: 100%;
+      }
+      &__form-wrapper{
+        flex-direction: column;
+      }
+    }
+  }
+  .job-card{
+    &__cont{
+      padding: 20px 15px;
+    }
+    &__title{
+      margin-bottom: 15px;
+    }
+    &__descr{
+      margin-bottom: 15px;
+    }
+    &__details{
+      margin-bottom: 15px;
+      li{
+        &:not(:last-child){
+          margin-bottom: 5px;
+        }
+      }
+    }
+  }
+  .job-card-list{
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  .card-text{
+    padding: 40px 15px;
+  }
+  .card-form{
+    padding: 30px 15px;
+    &__form{
+      margin-bottom: 20px;
+    }
+  }
+  .section_6 {
+    .s6 {
+      &__pagination {
+        left: 0;
+
+        button {
+          background-color: #fff;
+        }
+      }
+    }
+  }
+  .slider-vertical {
+    .video-slide {
+      &:after{
+        font-size: 40px;
+      }
+      &.slick-center {
+        .video-slide__video {
+          transform: scale(1.2);
+        }
+      }
+    }
+  }
+  .card-1 {
+    padding: 20px 15px 70px 15px;
+    min-height: 0;
+    &:hover{
+      .card-1{
+
+        &__link{
+          transform: translate(0, calc(-100% - 20px));
+        }
+      }
+    }
+    &__link{
+      right: 15px;
+      left: 15px;
+      transform: none;
+      width: auto;
+    }
+  }
+  .card-1-list {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .number-card-list {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .section_2 {
+    .s2 {
+      &__img {
+        max-width: 150px;
+      }
+    }
+  }
+  .menu {
+    &__main-block {
+      padding-bottom: 30px;
+    }
+
+    &__main-list {
+      font-size: 25px;
+    }
+
+    &__second-block {
+      padding: 30px 0;
+    }
+
+    &__login-form {
+      grid-template-columns: 1fr;
+      width: 100%;
+
+      .login {
+        &__email {
+          grid-column-end: 2;
+        }
+      }
+    }
+  }
+
+  .title {
+    font-size: 20px;
+  }
+  .title-main {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .descr-title {
+    font-size: 16px;
+  }
+  .descr {
+    font-size: 13px;
+  }
+
+}
+
+@include media(410) {
+  .slider-vertical {
+    .video-slide {
+      &.slick-center {
+        .video-slide__video {
+          transform: none;
+        }
+      }
+    }
+  }
+}
