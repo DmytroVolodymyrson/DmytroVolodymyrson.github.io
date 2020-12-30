@@ -366,9 +366,7 @@ body {
   }
 
 
-  &_blue-light {
-    color: $color_blue-light-2;
-  }
+
 }
 
 .text-block {
@@ -396,7 +394,9 @@ body {
     &_2 {
       font-size: 30px;
     }
-
+    &_blue-light {
+      color: $color_blue-light-2;
+    }
 
     &_3 {
       font-size: 30px;
