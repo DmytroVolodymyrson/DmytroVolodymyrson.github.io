@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="25.088" height="31.191" viewBox="0 0 25.088 31.191">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Path_6060" data-name="Path 6060" d="M0,.088H25.088V-31.1H0Z" transform="translate(0 31.103)" fill="#f79000"/>
+    </clipPath>
+  </defs>
+  <g id="cars-2-img_24" transform="translate(0 31.103)">
+    <g id="Group_597" data-name="Group 597" transform="translate(0 -31.103)" clip-path="url(#clip-path)">
+      <g id="Group_594" data-name="Group 594" transform="translate(0)">
+        <path id="Path_6057" data-name="Path 6057" d="M.02.088H11.547A3.056,3.056,0,0,0,14.6-2.873L17.976-23.82l.013-.162a3.055,3.055,0,0,0-3.052-3.052H12.564v-1.017A3.055,3.055,0,0,0,9.513-31.1H1.376a3.055,3.055,0,0,0-3.052,3.052v1.017H-4.048A3.055,3.055,0,0,0-7.1-23.983L-3.03-2.856A3.055,3.055,0,0,0,.02.088M.359-28.051a1.018,1.018,0,0,1,1.017-1.017H9.513a1.018,1.018,0,0,1,1.017,1.017v1.017H.359ZM-4.048-25H14.937a1.018,1.018,0,0,1,1.015.95L12.576-3.125l-.012.161a1.019,1.019,0,0,1-1.018,1.018H.02A1.018,1.018,0,0,1-1-2.964l-4.065-21.1A1.018,1.018,0,0,1-4.048-25" transform="translate(7.1 31.103)" fill="#f79000"/>
+      </g>
+      <g id="Group_595" data-name="Group 595" transform="translate(11.662 14.714)">
+        <path id="Path_6058" data-name="Path 6058" d="M0,.036A.882.882,0,0,0,.884-.846v-11A.882.882,0,0,0,0-12.729a.882.882,0,0,0-.881.881v11A.882.882,0,0,0,0,.036" transform="translate(0.879 12.729)" fill="#f79000"/>
+      </g>
+      <g id="Group_596" data-name="Group 596" transform="translate(4.327 8.44)">
+        <path id="Path_6059" data-name="Path 6059" d="M.043.006H-14.385a1,1,0,0,1-1-1,1,1,0,0,1,1-1H.043a1,1,0,0,1,1,1,1,1,0,0,1-1,1" transform="translate(15.388 2)" fill="#f79000"/>
+      </g>
+    </g>
+  </g>
+</svg>
