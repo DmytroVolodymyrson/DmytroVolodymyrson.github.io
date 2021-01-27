@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="552" height="552" viewBox="0 0 552 552">
+  <g id="diagram" transform="translate(-962.394 -1584.394)">
+    <text id="Expert_hire_recruitment" data-name="Expert hire
+recruitment" transform="translate(1236.394 1729.394)" fill="#d2d5d2" font-size="36" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="-92.856" y="0">Expert hire</tspan><tspan x="-99.817" y="48">recruitment</tspan></text>
+    <text id="Community" transform="translate(1491.394 1988.394)" fill="#d2d5d2" font-size="36" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="-197.596" y="0">Community</tspan></text>
+    <text id="Academia" transform="translate(1004.394 1988.394)" fill="#d2d5d2" font-size="36" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">Academia</tspan></text>
+    <g id="Ellipse_29" data-name="Ellipse 29" transform="translate(1069.394 1584.394)" fill="none" stroke="#d2d5d2" stroke-width="1">
+      <ellipse cx="168.5" cy="168" rx="168.5" ry="168" stroke="none"/>
+      <ellipse cx="168.5" cy="168" rx="168" ry="167.5" fill="none"/>
+    </g>
+    <g id="Intersection_1" data-name="Intersection 1" transform="translate(1187.953 1839.925)" fill="#fff">
+      <path d="M 49.82812118530273 79.89380645751953 C 33.06198883056641 79.89380645751953 16.51824951171875 77.42813110351563 0.6450417041778564 72.56399536132813 C 10.54494667053223 44.70146942138672 27.75193977355957 19.85345840454102 50.44139862060547 0.6542860269546509 C 73.03672790527344 19.77377700805664 90.20042419433594 44.50307464599609 100.114875793457 72.22222900390625 C 83.90212249755859 77.31275939941406 66.98577117919922 79.89380645751953 49.82812118530273 79.89380645751953 Z" stroke="none"/>
+      <path d="M 49.82812118530273 79.39380645751953 C 66.75980377197266 79.39380645751953 83.45497131347656 76.87308502197266 99.46790313720703 71.90045166015625 C 89.60391998291016 44.59403228759766 72.67826080322266 20.22172546386719 50.44139862060547 1.30996572971344 C 28.11217498779297 20.3006763458252 11.14249992370605 44.79092407226563 1.292199492454529 72.23848724365234 C 16.96492576599121 76.98702239990234 33.28798294067383 79.39380645751953 49.82812118530273 79.39380645751953 M 49.82812118530273 80.39380645751953 C 32.47753524780273 80.39380645751953 15.74706935882568 77.767822265625 2.812500042637112e-06 72.88843536376953 C 10.07324314117432 44.25439453125 27.68358993530273 19.1591796875 50.44140243530273 6.080729235691251e-06 C 73.1103515625 19.08471298217773 90.66797637939453 44.04809951782227 100.759765625 72.54296875 C 84.6943359375 77.64234161376953 67.58203125 80.39380645751953 49.82812118530273 80.39380645751953 Z" stroke="none" fill="#d2d5d2"/>
+    </g>
+    <g id="Ellipse_30" data-name="Ellipse 30" transform="translate(962.394 1800.394)" fill="none" stroke="#d2d5d2" stroke-width="1">
+      <circle cx="168" cy="168" r="168" stroke="none"/>
+      <circle cx="168" cy="168" r="167.5" fill="none"/>
+    </g>
+    <g id="Ellipse_31" data-name="Ellipse 31" transform="translate(1178.394 1800.394)" fill="none" stroke="#d2d5d2" stroke-width="1">
+      <circle cx="168" cy="168" r="168" stroke="none"/>
+      <circle cx="168" cy="168" r="167.5" fill="none"/>
+    </g>
+    <text id="MBN" transform="translate(1265.394 1896.394)" fill="#009abc" font-size="25" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="-59.705" y="0">MBN</tspan></text>
+  </g>
+</svg>
