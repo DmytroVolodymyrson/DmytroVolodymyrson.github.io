@@ -1276,10 +1276,12 @@ body {
       &-left {
         background-color: $color_purple;
         mix-blend-mode: multiply;
+        height: 100%;
       }
 
       &-right {
         background-color: rgba(0, 0, 0, 0.62);
+        height: 100%;
       }
     }
 
