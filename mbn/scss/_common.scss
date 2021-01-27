@@ -4,6 +4,9 @@ body {
   a {
     color: $color_white;
   }
+  &.body-fix{
+    overflow: hidden;
+  }
 }
 
 #site {
@@ -831,6 +834,7 @@ body {
 
   &__address-list {
     max-width: 450px;
+    height: 100%;
   }
 
   &__form-wrapper {
