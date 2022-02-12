@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'ArticulatCF';
+    src: url('../fonts/ArticulatCFBold.eot');
+    src: url('../fonts/ArticulatCFBold.eot') format('embedded-opentype'),
+    url('../fonts/ArticulatCFBold.woff2') format('woff2'),
+    url('../fonts/ArticulatCFBold.woff') format('woff'),
+    url('../fonts/ArticulatCFBold.ttf') format('truetype'),
+    url('../fonts/ArticulatCFBold.svg#ArticulatCFBold') format('svg');
+    font-style: normal;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?dq25li');
+    src:  url('../fonts/icomoon.eot?dq25li#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?dq25li') format('truetype'),
+    url('../fonts/icomoon.woff?dq25li') format('woff'),
+    url('../fonts/icomoon.svg?dq25li#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-envelope:before {
+    content: "\e900";
+}
+.icon-twitter:before {
+    content: "\e901";
+}
+.icon-linkedin:before {
+    content: "\e902";
+}
+.icon-arrow-down:before {
+    content: "\e903";
+}

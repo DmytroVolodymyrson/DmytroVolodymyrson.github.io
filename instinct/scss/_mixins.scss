@@ -1,0 +1,25 @@
+@mixin media($width) {
+	@media only screen and (max-width: $width + 'px') {
+		@content;
+	}
+}
+
+@mixin placeholder() {
+
+	&:-ms-input-placeholder {
+		@content
+	}
+
+	&:-moz-placeholder {
+		@content
+	}
+
+	&::-moz-placeholder {
+		@content
+	}
+
+	&::-webkit-input-placeholder {
+		@content
+	}
+
+}
