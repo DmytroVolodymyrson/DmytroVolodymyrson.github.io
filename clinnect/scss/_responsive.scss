@@ -1,0 +1,2647 @@
+@include media(1770) {
+  .fixed {
+    max-width: 1400px;
+  }
+  .title-2 {
+    font-size: 72px;
+  }
+  .title-main {
+    font-size: 96px;
+  }
+  .title-3 {
+    font-size: 31px;
+  }
+  .title-1 {
+    font-size: 55px;
+  }
+  .subtitle {
+    font-size: 25px;
+  }
+  .subtitle-2 {
+    font-size: 29px;
+  }
+  .subtitle-3 {
+    font-size: 21px;
+  }
+  .link {
+    &_35 {
+      font-size: 29px;
+    }
+  }
+  .section-2 {
+    .s2 {
+      &__title {
+        margin-bottom: 30px;
+      }
+
+      &__circle-block {
+        width: 349.6px;
+        height: 349.6px;
+      }
+    }
+  }
+  .descr-row {
+    padding-left: 70px;
+
+    & > * {
+      &.wide {
+        max-width: 480px;
+      }
+    }
+
+    &_3 {
+      margin: 0 0 -55px -90px;
+
+      & > * {
+        margin: 0 0 55px 90px;
+        max-width: 430px;
+
+        &.full {
+          width: 100%;
+          max-width: 100%;
+        }
+      }
+    }
+  }
+  .paddind-left {
+    padding-left: 70px;
+  }
+  .section-3 {
+    .s3 {
+      &__row {
+        padding-left: 70px;
+      }
+
+      &__list {
+        max-width: 758px;
+      }
+    }
+  }
+  .list-2 {
+    margin: 0 0 -30px -30px;
+    text-align: center;
+
+    li {
+      display: flex;
+      width: calc(33.3333% - 30px);
+      margin: 0 0 30px 30px;
+    }
+  }
+  .section-4 {
+    padding: 110px 0;
+  }
+  .section-5 {
+    height: 416px;
+  }
+  .section-6 {
+    .s6 {
+      &__row {
+        max-width: 790px;
+      }
+    }
+  }
+  .circle-block {
+    padding: 100px 55px;
+    width: 480px;
+    height: 480px;
+  }
+  .section-padding {
+    &_2 {
+      padding: 80px 0;
+    }
+  }
+  .first-2 {
+    &__pattern {
+      top: 50%;
+      transform: translateY(-50%);
+      bottom: auto;
+      max-width: 472px;
+    }
+  }
+  .text-block {
+    padding: 70px;
+
+    &__title, &__descr {
+      margin-bottom: 40px;
+    }
+
+    &__descr {
+      max-width: 450px;
+    }
+  }
+  .section-8 {
+    .s8 {
+      &__title {
+        max-width: 750px;
+      }
+    }
+  }
+  .section-11 {
+    .s11 {
+      &__descr-row {
+        &_2 {
+          margin-bottom: -20px;
+        }
+      }
+    }
+  }
+  .title-4 {
+    font-size: 34.875px;
+  }
+  .tabs {
+    &__caption {
+      max-width: 460px;
+
+      & > li {
+        cursor: pointer;
+
+        &:not(:last-child) {
+          margin-bottom: 15px;
+
+          &.active {
+            margin-bottom: 20px;
+          }
+        }
+      }
+
+    }
+
+
+    &__content {
+      max-width: 895px;
+      padding-top: 5px;
+
+    }
+
+  }
+  .descr-row {
+    &_4 {
+      & > * {
+        &.wide {
+          max-width: 420px;
+        }
+      }
+    }
+  }
+  .job-card {
+    width: 427.5px;
+    height: 427.5px;
+    padding: 100px 80px;
+
+  }
+  .jobs {
+    &__cont {
+      max-width: 950px;
+    }
+  }
+  .detail-block {
+    width: 180px;
+    height: 180px;
+  }
+  .job {
+    &__title {
+      max-width: 775px;
+    }
+
+    &__cont {
+      max-width: 880px;
+    }
+  }
+  .blog-card {
+    &__img {
+      height: 420px;
+    }
+
+    &__title {
+      padding: 30px;
+      width: 271.2px;
+      height: 271.2px;
+      left: -48.8px;
+      bottom: -78.4px;
+    }
+
+    &__top-block {
+      margin-bottom: 50px;
+    }
+
+    &__descr {
+      margin-bottom: 25px;
+    }
+  }
+}
+
+@media (min-width: 1561px) {
+  .fixed {
+    &_2 {
+      max-width: 1390px;
+    }
+  }
+}
+
+@include media(1560) {
+  .fixed {
+    max-width: 1200px;
+  }
+  .title-2 {
+    font-size: 57.6px;
+  }
+  .title-main {
+    font-size: 77px;
+  }
+  .title-1 {
+    font-size: 44px;
+  }
+  .title-3 {
+    font-size: 25px;
+  }
+  .subtitle {
+    font-size: 19.2px;
+  }
+  .subtitle-2 {
+    font-size: 22.272px;
+  }
+  .link {
+    &_35 {
+      font-size: 22.272px;
+    }
+  }
+  .descr {
+    font-size: 16px;
+  }
+  .descr-3 {
+    font-size: 19px;
+  }
+  .section-2 {
+    .s2 {
+      &__circle-block {
+        padding: 60px 32px;
+        width: 280px;
+        height: 280px;
+      }
+    }
+  }
+  .descr-row {
+    padding-left: 50px;
+    margin: 0 0 -40px -40px;
+
+    & > * {
+      max-width: 344px;
+      margin: 0 0 40px 40px;
+    }
+  }
+  .paddind-left {
+    padding-left: 50px;
+  }
+  .logo {
+    max-width: 180px;
+  }
+  .first {
+    &__top {
+      top: 40px;
+      padding: 0 50px;
+    }
+  }
+  .hamburger {
+    div {
+      width: 11px;
+      height: 11px;
+    }
+  }
+  .link {
+    font-size: 18px;
+  }
+  .section-3 {
+    .s3 {
+      &__row {
+        padding-left: 50px;
+      }
+
+      &__title {
+        margin-bottom: 35px;
+      }
+
+      &__descr-block {
+        max-width: 470px;
+      }
+
+      &__descr {
+        margin-bottom: 20px;
+      }
+
+      &__list {
+        max-width: 658px;
+
+      }
+    }
+  }
+  .section-4 {
+    padding: 70px 0;
+
+    .s4 {
+      &__list {
+        gap: 90px;
+        margin-bottom: 70px;
+      }
+    }
+  }
+  .card-1 {
+    padding: 20px;
+
+    &__title {
+      &_wide {
+        width: 100%;
+      }
+    }
+  }
+  .section-5 {
+    height: 332.8px;
+  }
+  .circle-block {
+    padding: 70px 65px;
+    width: 430px;
+    height: 430px;
+  }
+  .header {
+    top: 90px;
+    padding: 0 100px;
+  }
+  .menu {
+    &__nav {
+      padding: 150px 50px 50px 50px;
+
+      a {
+        &:not(:last-child) {
+          margin-bottom: 30px;
+        }
+      }
+    }
+  }
+  .section-padding {
+    padding: 50px 0;
+  }
+  .first-2 {
+    padding: 200px 0 50px 0;
+
+    &__pattern {
+      right: 70px;
+      max-width: 377.6px;
+    }
+
+    &__descr-block {
+      max-width: 600px;
+    }
+  }
+  .process-card-list {
+    li {
+      width: calc(20% - 33px);
+    }
+
+    &_2 {
+      justify-content: center;
+    }
+  }
+  .process-card {
+    .pc {
+      &__img {
+        max-width: 110px;
+        height: 110px;
+      }
+
+      &__number {
+        margin: -35px 0 10px 0;
+      }
+
+      &__descr {
+        margin-bottom: 10px;
+      }
+    }
+  }
+  .text-block {
+    padding: 60px;
+
+    &__title, &__descr {
+      margin-bottom: 30px;
+    }
+
+    &__descr {
+      max-width: 400px;
+    }
+  }
+  .bubble-number {
+    width: 240px;
+    height: 240px;
+    border-width: 16px;
+  }
+  .title-mb {
+    margin-bottom: 50px;
+  }
+  .section-8 {
+    .s8 {
+      &__title {
+        max-width: 560px;
+      }
+    }
+  }
+  .card-1-list {
+    margin: 0 0 -100px -100px;
+
+    li {
+      width: calc(50% - 100px);
+      margin: 0 0 100px 100px;
+    }
+
+    &_2 {
+      margin: 0 0 -70px -130px;
+
+      li {
+        width: calc(50% - 130px);
+        margin: 0 0 70px 130px;
+
+      }
+    }
+
+    &_3 {
+      margin: 0 0 -40px -130px;
+
+      li {
+        margin: 0 0 40px 130px;
+      }
+    }
+  }
+  .section-9 {
+    &__descr {
+      max-width: 500px;
+    }
+  }
+  .card-2 {
+    padding: 20px 43px 20px 20px;
+    min-height: 100px;
+
+    &__title {
+      margin-bottom: 15px;
+    }
+
+    &:after {
+      width: 17px;
+      height: 17px;
+    }
+  }
+  .section-10 {
+    .s10 {
+      &__lists {
+        & > li {
+          &:not(:last-child) {
+            margin-bottom: 60px;
+          }
+        }
+      }
+    }
+  }
+  .dotted-list {
+    li {
+      &:after {
+        top: 9px;
+      }
+    }
+  }
+  .title-4 {
+    font-size: 28.125px;
+  }
+  .section-11 {
+    .s11 {
+      &__descr-row {
+        &_2 {
+          margin-bottom: -15px;
+        }
+      }
+    }
+  }
+  .tabs {
+    &__caption {
+
+    }
+
+
+    &__content {
+      max-width: 795px;
+      padding-top: 0;
+    }
+
+  }
+  .descr-row {
+    &_4 {
+      & > * {
+        &.wide {
+          max-width: 370px;
+        }
+      }
+    }
+  }
+  .card-3 {
+    &__img {
+      margin-bottom: 15px;
+      height: 110px;
+      max-width: 100px;
+    }
+
+    &__title {
+      color: $color_dark-blue;
+      margin-bottom: 12px;
+    }
+  }
+  .card-3-list {
+    margin: 0 0 -30px -50px;
+
+    li {
+      width: calc(33.33% - 50px);
+      margin: 0 0 30px 50px;
+    }
+  }
+  .job-card {
+    width: 341px;
+    height: 341px;
+    padding: 80px 50px;
+  }
+  .jobs {
+    &__cont {
+      max-width: 760px;
+    }
+
+    &__list-wrapper {
+      margin-bottom: 80px;
+    }
+  }
+  .job-card-list {
+    margin-bottom: -50px;
+
+    & > li {
+      margin-bottom: 50px;
+    }
+  }
+  .detail-block {
+    width: 150px;
+    height: 150px;
+  }
+  .job {
+    &__title {
+      max-width: 655px;
+    }
+
+    &__cont {
+      max-width: 760px;
+    }
+
+    &__recruiter-block {
+      margin-top: 30px;
+    }
+
+    &__text {
+      &:not(:last-child) {
+        margin-bottom: 50px;
+      }
+    }
+
+    &__descr-block {
+      &:not(:last-child) {
+        margin-bottom: 40px;
+      }
+
+      h4 {
+        &:not(:last-child) {
+          margin-bottom: 20px;
+        }
+      }
+    }
+
+    &__btns {
+      margin: 0 0 15px -40px;
+
+    }
+
+    &__top-block {
+      margin-bottom: 100px;
+    }
+  }
+  .share-block {
+    &__title {
+      margin-bottom: 10px;
+    }
+  }
+  .recruiter-block {
+    .rb {
+      &__img {
+        width: 300px;
+        height: 300px;
+        margin-bottom: 30px;
+      }
+    }
+  }
+  .blog-card-list {
+    margin: 0 0 -100px -100px;
+
+    li {
+      width: calc(50% - 100px);
+      margin: 0 0 100px 100px;
+    }
+  }
+  .blog-card {
+    &__img {
+      height: 350px;
+    }
+
+    &__title {
+      padding: 30px;
+      width: 216px;
+      height: 216px;
+      left: -38px;
+      bottom: -62px;
+    }
+
+    &__top-block {
+      margin-bottom: 40px;
+    }
+
+    &__descr {
+      margin-bottom: 20px;
+    }
+
+    &_2{
+      &.blog-card{
+        .blog-card{
+          &__img{
+            height: 240px;
+          }
+          &__top-block{
+            margin-bottom: 50px;
+          }
+          &__title{
+            left: -34.4px;
+            bottom: -55.2px;
+            width: 189.6px;
+            height: 189.6px;
+          }
+        }
+      }
+    }
+  }
+  .blog-card-list-2{
+    margin: 0 0 -40px -60px;
+    li{
+      width: calc(33.33% - 60px);
+      margin: 0 0 40px 60px;
+    }
+  }
+  .blog{
+    &__img{
+      height: 640px;
+    }
+  }
+  .section-15 {
+
+    .s15 {
+
+      &__descr {
+        margin-bottom: 40px;
+      }
+
+      &__contacts {
+        li {
+          &:not(:last-child) {
+            margin-bottom: 20px;
+          }
+        }
+      }
+
+      &__text {
+        max-width: 300px;
+      }
+
+      &__form-wrapper {
+        max-width: 816px;
+      }
+
+      &__form {
+        margin-bottom: 30px;
+      }
+    }
+  }
+  .label-1 {
+    &__title {
+      margin-bottom: 18px;
+    }
+  }
+  .textarea-1 {
+    height: 100px;
+  }
+  .contact-form {
+    .cf {
+      &__inputs {
+        & > * {
+          margin: 0 0 40px 60px;
+        }
+      }
+
+    }
+  }
+
+}
+
+@include media(1360) {
+  #site {
+    padding: 25px 25px 0 25px;
+  }
+  .fixed {
+    max-width: 1050px;
+  }
+  .title-2 {
+    font-size: 50px;
+  }
+  .title-main {
+    font-size: 66.6px;
+  }
+  .title-1 {
+    font-size: 38px;
+  }
+  .title-3 {
+    font-size: 21.7px;
+  }
+  .title-underline {
+    padding-bottom: 5px;
+
+    &:after {
+      height: 5px;
+    }
+
+    &_2 {
+      &:after {
+        width: 70px;
+        height: 8px;
+        left: 7px;
+      }
+    }
+
+    &_center {
+      padding-bottom: 20px;
+    }
+  }
+  .subtitle {
+    font-size: 18px;
+  }
+  .subtitle-2 {
+    font-size: 20.88px;
+  }
+  .link {
+    &_35 {
+      font-size: 20.88px;
+    }
+  }
+  .descr, .descr-2 {
+    font-size: 14px;
+  }
+  .section-2 {
+
+
+    .s2 {
+      &__title {
+        margin-bottom: 20px;
+      }
+
+      &__circle-block {
+        padding: 60px 32px;
+        width: 280px;
+        height: 280px;
+      }
+    }
+
+    &__cont {
+      &:after {
+        height: 10px;
+      }
+    }
+  }
+  .descr-row {
+    padding-left: 30px;
+
+    margin: 0 0 -30px -30px;
+
+    & > * {
+      margin: 0 0 30px 30px;
+
+    }
+  }
+  .paddind-left {
+    padding-left: 30px;
+  }
+  .logo {
+    max-width: 150px;
+  }
+  .first {
+    height: calc(100vh - 50px);
+    margin-bottom: 30px;
+
+    &__title {
+      margin-bottom: 40px;
+    }
+
+    &__top {
+      top: 30px;
+      padding: 0 30px;
+    }
+  }
+  .hamburger {
+    div {
+      width: 9px;
+      height: 9px;
+    }
+  }
+  .section-3 {
+    .s3 {
+      &__row {
+        padding-left: 30px;
+      }
+
+      &__title {
+        margin-bottom: 30px;
+      }
+
+      &__descr-block {
+        max-width: 440px;
+      }
+
+      &__list {
+        max-width: 548px;
+      }
+    }
+  }
+  .list-2 {
+    margin: 0 0 -30px -20px;
+
+    li {
+      width: calc(33.3333% - 20px);
+      margin: 0 0 30px 20px;
+
+      a {
+        font-size: 16px;
+      }
+    }
+  }
+  .card-1 {
+    &__title, &__subtitle {
+      margin-bottom: 15px;
+    }
+  }
+  .section-4 {
+    padding: 50px 0;
+
+    .s4 {
+      &__list {
+        gap: 70px;
+        margin-bottom: 50px;
+      }
+    }
+  }
+  .section-6 {
+    .s6 {
+      &__circle-block {
+        margin-bottom: 30px;
+      }
+
+      &__row {
+        max-width: 700px;
+      }
+    }
+  }
+  .circle-block {
+    padding: 50px 65px;
+    width: 350px;
+    height: 350px;
+
+    &__title {
+      margin-bottom: 15px;
+    }
+
+    &__descr {
+      p {
+        &:not(:last-child) {
+          margin-bottom: 6px;
+        }
+      }
+    }
+  }
+  .input-1 {
+    min-height: 40px;
+  }
+  .btn-1 {
+    min-height: 40px;
+  }
+  .footer {
+    padding: 20px 0;
+  }
+  .link {
+    &_2 {
+      font-size: 14px;
+    }
+  }
+  .list-1 {
+
+    &_2 {
+      margin: 0 0 -20px -30px;
+
+      li {
+        margin: 0 0 20px 30px;
+      }
+    }
+  }
+  .header {
+    top: 55px;
+    padding: 0 55px;
+  }
+  .menu {
+    padding: 25px;
+
+    &__nav {
+      padding: 120px 35px 50px 35px;
+      a{
+        &:not(:last-child){
+          margin-bottom: 20px;
+        }
+      }
+    }
+
+    &__color-block {
+      padding: 150px 38px 46px 200px;
+    }
+
+    &__form-title {
+      max-width: 270px;
+      margin-bottom: 20px;
+    }
+
+    &__socials {
+
+      margin-bottom: 5px;
+
+      a {
+        font-size: 22px;
+      }
+    }
+
+  }
+  .descr-block {
+    & > * {
+      &:not(:last-child) {
+        margin-bottom: 15px;
+      }
+    }
+
+    & > h4 {
+      &:not(:first-child) {
+        margin-top: 25px;
+      }
+    }
+  }
+  .first-2 {
+    padding: 150px 0 50px 0;
+
+    &__pattern {
+      right: 50px;
+    }
+
+    &__title-block {
+      &:not(:last-child) {
+        margin-bottom: 25px;
+      }
+    }
+
+    &__descr-block {
+      max-width: 500px;
+    }
+  }
+  .process-card {
+    .pc {
+      &__img {
+        max-width: 90px;
+        height: 90px;
+      }
+
+      &__number {
+        margin: -35px 0 10px 0;
+      }
+
+      &__descr {
+        margin-bottom: 10px;
+      }
+    }
+
+    &_2 {
+      .pc {
+        &__img {
+          margin-bottom: 20px;
+        }
+      }
+    }
+  }
+  .text-block {
+    padding: 50px;
+
+    &__title, &__descr {
+      margin-bottom: 25px;
+    }
+
+    &__descr {
+      max-width: 350px;
+    }
+  }
+  .bubble-number {
+    width: 192px;
+    height: 192px;
+    border-width: 13px;
+  }
+  .bubble-number-list {
+    justify-content: space-between;
+
+    margin: 0 0 -30px -50px;
+
+    li {
+      margin: 0 0 30px 50px;
+    }
+  }
+  .title-mb {
+    margin-bottom: 40px;
+  }
+  .section-8 {
+    .s8 {
+      &__title {
+        max-width: 500px;
+      }
+    }
+  }
+  .card-1-list {
+    margin: 0 0 -70px -70px;
+
+    li {
+      width: calc(50% - 70px);
+      margin: 0 0 70px 70px;
+    }
+
+    &_3 {
+      margin: 0 0 -40px -70px;
+
+      li {
+        margin: 0 0 40px 70px;
+      }
+    }
+  }
+  .section-9 {
+    &__descr {
+      max-width: 450px;
+    }
+  }
+  .card-2-list {
+    margin: 0 0 -30px -30px;
+
+    li {
+      width: calc(33% - 30px);
+      margin: 0 0 30px 30px;
+    }
+  }
+  .dotted-list {
+    margin: 0 0 -15px -100px;
+    max-width: calc(70% + 50px);
+
+    li {
+      padding-left: 12px;
+      width: calc(50% - 100px);
+      margin: 0 0 15px 100px;
+
+      &:after {
+        height: 4px;
+        width: 4px;
+        top: 8px;
+      }
+    }
+
+    &_1 {
+      max-height: 167px;
+    }
+  }
+  .title-4 {
+    font-size: 24.4125px;
+  }
+  .section-11 {
+    .s11 {
+      &__list {
+        &_2 {
+          padding: 0;
+        }
+      }
+    }
+  }
+  .tabs {
+    &__content {
+      max-width: 715px;
+    }
+  }
+  .descr-row {
+    &_4 {
+      & > * {
+        &.wide {
+          max-width: 330px;
+        }
+      }
+    }
+  }
+  .card-3 {
+    &__img {
+      margin-bottom: 12px;
+      height: 87px;
+      max-width: 80px;
+    }
+
+    &__title {
+      margin-bottom: 10px;
+    }
+  }
+  .job-card {
+    width: 306.9px;
+    height: 306.9px;
+    padding: 70px 50px;
+  }
+  .jobs {
+    &__side-filter {
+      max-width: 268px;
+    }
+
+    &__cont {
+      max-width: 670px;
+    }
+
+    &__list-wrapper {
+      margin-bottom: 50px;
+    }
+  }
+  .job-card-list {
+    margin-bottom: -50px;
+
+    & > li {
+      margin-bottom: 50px;
+    }
+  }
+  .checked-label {
+    padding-left: 25px;
+
+    .checkmark {
+
+      width: 14px;
+      height: 14px;
+
+
+    }
+
+
+  }
+  .descr-3 {
+    font-size: 16px;
+  }
+  .side-filter {
+    .sf {
+      &__block {
+        &:not(:last-child) {
+          margin-bottom: 30px;
+        }
+      }
+
+      &__filters {
+        margin-bottom: 30px;
+      }
+    }
+  }
+  .filter-block {
+    .fb {
+      &__title {
+        margin-bottom: 10px;
+      }
+
+      &__list {
+        li {
+          &:not(:last-child) {
+            margin-bottom: 10px;
+          }
+        }
+      }
+    }
+  }
+  .input-2 {
+    padding-bottom: 8px;
+  }
+  .detail-block {
+    width: 120px;
+    height: 120px;
+  }
+  .job {
+    &__top-block {
+      margin-bottom: 70px;
+    }
+
+    &__text {
+      &:not(:last-child) {
+        margin-bottom: 40px;
+      }
+    }
+
+    &__cont {
+      max-width: 610px;
+    }
+
+    &__back {
+      margin-bottom: 30px;
+    }
+
+    &__title {
+      max-width: 535px;
+    }
+  }
+  .recruiter-block {
+    .rb {
+      &__img {
+        width: 240px;
+        height: 240px;
+        margin-bottom: 30px;
+      }
+    }
+  }
+  .blog-card-list {
+    margin: 0 0 -70px -70px;
+
+    li {
+      width: calc(50% - 70px);
+      margin: 0 0 70px 70px;
+    }
+  }
+  .section-13{
+    .s13{
+      &__list-wrapper{
+        &:not(:last-child){
+          margin-bottom: 70px;
+        }
+      }
+    }
+  }
+  .blog-card {
+    &__img {
+      height: 300px;
+    }
+
+    &__title {
+      padding: 15px;
+      width: 194.4px;
+      height: 194.4px;
+      left: -34.2px;
+      bottom: -55.8px;
+    }
+
+    &__top-block {
+      margin-bottom: 30px;
+    }
+
+    &__descr {
+      margin-bottom: 15px;
+    }
+
+    &_2{
+      &.blog-card{
+        .blog-card{
+          &__img{
+            height: 200px;
+          }
+          &__top-block{
+            margin-bottom: 40px;
+          }
+          &__title{
+            left: -30px;
+            bottom: -49px;
+            width: 170px;
+            height: 170px;
+          }
+        }
+      }
+    }
+  }
+  .blog{
+    &__img{
+      height: 512px;
+    }
+    &__text{
+      max-width: 960px;
+    }
+    &__descr-block {
+      h4 {
+        &:not(:last-child) {
+          margin-bottom: 20px;
+        }
+      }
+
+      &:not(:last-child) {
+        margin-bottom: 40px;
+      }
+    }
+  }
+  .section-15 {
+
+    .s15 {
+
+      &__descr {
+        margin-bottom: 30px;
+      }
+
+
+      &__text {
+        max-width: 250px;
+      }
+
+      &__form-wrapper {
+        max-width: 650px;
+      }
+
+    }
+  }
+  .label-1 {
+    &__title {
+      margin-bottom: 15px;
+    }
+  }
+  .textarea-1 {
+    height: 80px;
+  }
+  .contact-form{
+    .cf{
+      &__check{
+        max-width: 350px;
+      }
+    }
+  }
+}
+
+@include media(1160) {
+  #site {
+    padding: 15px 15px 0 15px;
+  }
+  .logo {
+    max-width: 130px;
+  }
+  .first {
+    padding: 100px 30px;
+    height: calc(100vh - 30px);
+
+    &__title {
+      margin-bottom: 30px;
+    }
+
+    &__title-block {
+      max-width: 569px;
+
+    }
+  }
+  .hamburger {
+    div {
+      width: 8px;
+      height: 8px;
+    }
+  }
+  .fixed {
+    max-width: 800px;
+    padding: 0 15px;
+  }
+  .title-2 {
+    font-size: 45px;
+  }
+  .title-main {
+    font-size: 60px;
+  }
+  .title-underline {
+    &_2 {
+      &:after {
+        height: 5px;
+        left: 5px;
+        width: 60px;
+      }
+    }
+  }
+  .title-1 {
+    font-size: 35px;
+  }
+  .title-3 {
+    font-size: 20px;
+  }
+  .section-2 {
+    .s2 {
+      &__row {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      &__descr-row {
+        margin-bottom: 0;
+      }
+
+      &__circle-block {
+        margin-top: 0;
+        width: 252px;
+        height: 252px;
+      }
+    }
+  }
+  .descr-row {
+    padding-left: 0;
+
+    & > * {
+      max-width: 100%;
+      width: calc(50% - 30px);
+
+      &.wide {
+        width: calc(50% - 30px);
+      }
+    }
+  }
+  .paddind-left {
+    padding-left: 0px;
+  }
+  .section-3 {
+    .s3 {
+      &__row {
+        padding: 0;
+        flex-direction: column;
+      }
+
+      &__descr-block {
+        max-width: 100%;
+        margin-bottom: 30px;
+      }
+
+      &__list {
+        max-width: 100%;
+      }
+    }
+  }
+  .section-4 {
+    .s4 {
+      &__list {
+        gap: 50px;
+      }
+    }
+  }
+  .section-5 {
+    height: 266px;
+    margin-bottom: 30px;
+  }
+  .footer {
+    &__row {
+      flex-direction: column;
+    }
+
+    &__logo {
+      margin: 0 0 20px 0;
+    }
+  }
+  .header {
+    top: 45px;
+    padding: 0 45px;
+  }
+  .menu {
+    padding: 15px;
+
+    &__nav {
+      padding: 100px 30px;
+    }
+
+    &__color-block {
+      padding: 150px 30px 30px 100px;
+    }
+
+    &__socials {
+      margin-bottom: 0;
+
+      a {
+        font-size: 20px;
+      }
+    }
+
+    &__form-title {
+      margin-bottom: 15px;
+    }
+  }
+  .section-padding {
+    padding: 30px 0;
+  }
+  .first-2 {
+    padding: 120px 0 30px 0;
+
+    &__pattern {
+      right: 20px;
+      max-width: 301.6px;
+    }
+
+    &__descr-block {
+      max-width: 400px;
+    }
+  }
+  .process-card-list {
+    li {
+      width: calc(25% - 33px);
+    }
+  }
+  .process-card {
+    .pc {
+      &__img {
+        max-width: 80px;
+        height: 80px;
+      }
+
+      &__number {
+        margin: -25px 0 5px 0;
+      }
+
+      &__descr {
+        margin-bottom: 5px;
+      }
+    }
+
+    &_2 {
+      .pc {
+        &__img {
+          margin-bottom: 15px;
+        }
+      }
+    }
+  }
+  .text-block {
+    padding: 30px;
+
+    &__title, &__descr {
+      margin-bottom: 20px;
+    }
+  }
+  .title-mb {
+    margin-bottom: 30px;
+  }
+  .section-8 {
+    .s8 {
+      &__title {
+        max-width: 450px;
+      }
+    }
+  }
+  .card-1-list {
+    margin: 0 0 -50px -50px;
+
+    li {
+      width: calc(50% - 50px);
+      margin: 0 0 50px 50px;
+    }
+  }
+  .card-2 {
+    min-height: 80px;
+
+    &:after {
+      width: 13px;
+      height: 13px;
+    }
+  }
+  .section-11 {
+    .s11 {
+      &__descr-row {
+        margin-bottom: 0;
+      }
+
+      &__subtitle-2 {
+        margin-bottom: 15px;
+      }
+    }
+  }
+  .title-4 {
+    font-size: 22.5px;
+  }
+  .tabs {
+    flex-direction: column;
+
+    &__caption {
+      margin-bottom: 30px;
+      max-width: 100%;
+    }
+
+    &__content {
+      max-width: 100%;
+    }
+  }
+  .descr-row {
+    &_4 {
+      & > * {
+        &.wide {
+          max-width: 400px;
+        }
+      }
+    }
+  }
+  .card-3-list {
+    li {
+      width: calc(50% - 50px);
+    }
+  }
+  .card-3 {
+    &__img {
+      height: 65px;
+      max-width: 60px;
+    }
+  }
+  .job-card {
+    width: 225px;
+    height: 225px;
+    padding: 45px 30px;
+
+    &__sector {
+      padding: 5px 20px;
+    }
+
+    &__title {
+      margin-bottom: 10px;
+    }
+
+    &__details {
+      &:not(:last-child) {
+        margin-bottom: 7px;
+      }
+
+      li {
+        &:not(:last-child) {
+          margin-bottom: 7px;
+        }
+      }
+    }
+  }
+  .jobs {
+    &__row {
+      flex-direction: column;
+    }
+
+    &__cont {
+      max-width: 100%;
+
+    }
+
+    &__side-filter {
+      max-width: initial;
+      margin-bottom: 30px;
+    }
+  }
+  .job-card-list {
+    margin-bottom: -30px;
+
+    & > li {
+      margin-bottom: 30px;
+    }
+  }
+  .side-filter {
+    width: 100%;
+
+    .sf {
+      &__filters {
+        display: flex;
+        margin: 0 0 0 -30px;
+        flex-flow: row wrap;
+
+        & > * {
+          width: calc(25% - 30px);
+          margin: 0 0 30px 30px;
+        }
+      }
+
+      &__block {
+        &_full {
+          width: calc(100% - 30px);
+        }
+      }
+    }
+  }
+  .btn-2 {
+    max-width: 120px;
+  }
+  .checked-label {
+    padding-left: 20px;
+
+    .checkmark {
+      width: 11px;
+      height: 11px;
+    }
+  }
+  .filter-block {
+    .fb {
+      &__title {
+        cursor: pointer;
+        width: fit-content;
+        position: relative;
+        padding-right: 30px;
+
+        &:after, &:before {
+          position: absolute;
+          width: 15px;
+          height: 3px;
+          right: 0;
+          top: 50%;
+          transform: translateY(-50%);
+          background-color: $color_green;
+          content: '';
+        }
+
+        &:before {
+          transform: translateY(-50%) rotate(90deg);
+        }
+      }
+
+      &__list {
+        display: none;
+      }
+    }
+
+    &_active {
+      .fb {
+        &__title {
+          &:before {
+            display: none;
+          }
+        }
+
+        &__list {
+          display: block;
+        }
+      }
+    }
+  }
+  .job {
+    &__title {
+      margin-bottom: 30px;
+      padding: 0;
+    }
+
+    &__title-block {
+      flex-direction: column;
+    }
+
+    &__back {
+      margin-bottom: 15px;
+    }
+
+    &__descr-block {
+      &:not(:last-child) {
+        margin-bottom: 30px;
+      }
+    }
+
+    &__cont {
+      margin-right: 50px;
+    }
+
+    &__btns {
+      margin: 0 0 10px -30px;
+
+      li {
+        min-width: 0;
+        margin: 0 0 10px 30px;
+      }
+    }
+
+    &__top-block {
+      margin-bottom: 50px;
+    }
+  }
+  .detail-block {
+    width: 100px;
+    height: 100px;
+  }
+  .recruiter-block {
+    .rb {
+      &__img {
+        width: 200px;
+        height: 200px;
+        margin-bottom: 20px;
+      }
+
+      &__name, &__role {
+        margin-bottom: 10px;
+      }
+
+      &__contacts {
+        li {
+          word-break: break-all;
+
+          &:not(:last-child) {
+            margin-bottom: 10px;
+          }
+        }
+      }
+    }
+  }
+  .blog-card-list {
+    margin: 0 0 -50px -50px;
+    li {
+      width: calc(50% - 50px);
+      margin: 0 0 50px 50px;
+    }
+  }
+  .blog-card {
+    &__img {
+      height: 250px;
+    }
+  }
+  .section-13{
+    .s13{
+      &__list-wrapper{
+        &:not(:last-child){
+          margin-bottom: 50px;
+        }
+      }
+    }
+  }
+  .blog-card-list-2{
+    justify-content: center;
+    li{
+      width: calc(50% - 60px);
+    }
+  }
+  .blog{
+    &__img{
+      height: 409.6px;
+    }
+    &__text{
+      max-width: 768px;
+    }
+    &__descr-block {
+      &:not(:last-child) {
+        margin-bottom: 30px;
+      }
+    }
+  }
+  .section-15 {
+    .s15 {
+      &__form-wrapper {
+        max-width: 480px;
+      }
+      &__text{
+        margin-right: 30px;
+      }
+    }
+  }
+  .label-1 {
+    &__title {
+      margin-bottom: 12px;
+    }
+  }
+  .textarea-1 {
+    height: 60px;
+  }
+ .contact-form{
+   .cf {
+     &__inputs {
+       margin: 0 0 -10px -40px;
+
+       & > * {
+         width: calc(50% - 40px);
+         margin: 0 0 30px 40px;
+
+         &.full {
+           width: calc(100% - 40px);
+         }
+       }
+     }
+
+     &__check {
+       max-width: 320px;
+     }
+   }
+ }
+}
+
+@include media(768) {
+  .popup-1{
+    padding: 40px 30px;
+    &__title{
+      margin-bottom: 20px;
+    }
+  }
+  .link {
+    font-size: 15px;
+  }
+  .first {
+    padding: 150px 15px;
+
+    &__title {
+      margin-bottom: 20px;
+    }
+
+    &__top {
+      top: 20px;
+      padding: 0 20px;
+    }
+  }
+  .header {
+    top: 35px;
+    padding: 0 35px;
+  }
+  .logo {
+    max-width: 110px;
+  }
+  .first-2{
+    &__pattern {
+      right: 0;
+      max-width: 240px;
+    }
+  }
+  .title-2 {
+    font-size: 40px;
+  }
+  .title-main {
+    font-size: 53px;
+  }
+  .title-1 {
+    font-size: 30.8px;
+  }
+  .title-underline-2 {
+    padding-bottom: 6px;
+
+    &:after {
+      height: 3px;
+    }
+
+    &_2 {
+      &:after {
+        width: 25px;
+      }
+    }
+  }
+  .title-underline {
+    &:after {
+      width: 30px;
+      height: 4px;
+    }
+  }
+  .section-2 {
+    .s2 {
+      &__title {
+        margin-bottom: 20px;
+      }
+
+      &__descr-block {
+        flex-direction: column;
+        margin: 0 0 30px 0;
+
+        & > div {
+          margin: 0;
+
+          &:not(:last-child) {
+            margin-bottom: 15px;
+          }
+        }
+
+      }
+    }
+  }
+  .section-3 {
+    .s3 {
+      &__title {
+        margin-bottom: 20px;
+      }
+    }
+  }
+  .card-1 {
+    &__title {
+      margin-bottom: 15px;
+    }
+  }
+  .section-4 {
+    padding: 30px 0 50px 0;
+
+    .s4 {
+      &__list {
+        grid-template-columns: 1fr;
+        gap: 30px;
+        margin-bottom: 30px;
+      }
+    }
+  }
+  .section-5 {
+    height: 212.8px;
+  }
+  .section-6 {
+    .s6 {
+      &__row {
+        max-width: 100%;
+        flex-direction: column;
+
+        & > div {
+          &:not(:last-child) {
+            margin-bottom: 30px;
+          }
+        }
+      }
+    }
+  }
+  .circle-block {
+    padding: 50px 35px;
+    max-width: 320px;
+    width: 100%;
+    height: 320px;
+    background-size: cover;
+  }
+  .title-block {
+    max-width: 100%;
+
+
+    &__descr {
+      max-width: 100%;
+    }
+  }
+  .menu {
+    &__header {
+      padding-right: 40px;
+    }
+
+    &__hamburger {
+      div {
+        border-color: $color_green;
+        background-color: $color_green;
+
+      }
+
+    }
+
+    &__cont {
+      flex-direction: column;
+    }
+
+    &__nav {
+      padding: 80px 20px 50px 20px;
+    }
+
+    &__color-block {
+      width: 100%;
+      padding: 20px;
+
+      &:before {
+        display: none;
+      }
+    }
+
+    &__form-block {
+      max-width: 100%;
+    }
+  }
+  .process-card-list {
+    li {
+      width: calc(33% - 33px);
+    }
+  }
+  .text-block {
+    padding: 20px;
+
+  }
+  .text-block-row {
+    flex-direction: column;
+
+    & > * {
+      width: 100%;
+    }
+  }
+  .bubble-number-list {
+    justify-content: center;
+    margin: 0 0 -20px -50px;
+
+    li {
+      margin: 0 0 20px 50px;
+    }
+  }
+  .bubble-number {
+    width: 173.6px;
+    height: 173.6px;
+    padding: 30px;
+  }
+  .section-8 {
+    .s8 {
+      &__title {
+        max-width: 400px;
+      }
+    }
+  }
+  .card-1-list {
+    margin: 0;
+
+    li {
+      width: 100%;
+      margin: 0;
+
+      &:not(:last-child) {
+        margin-bottom: 30px;
+      }
+    }
+  }
+  .card-2-list {
+    margin: 0 0 -20px -20px;
+
+    li {
+      width: calc(50% - 20px);
+      margin: 0 0 20px 20px;
+    }
+  }
+  .section-10 {
+    .s10 {
+      &__lists {
+        & > li {
+          &:not(:last-child) {
+            margin-bottom: 40px;
+          }
+        }
+      }
+    }
+  }
+  .dotted-list {
+    flex-wrap: nowrap;
+    max-height: 100%;
+    margin: 0;
+    max-width: 100%;
+
+    li {
+      margin: 0;
+      width: 100%;
+
+      &:not(:last-child) {
+        margin-bottom: 10px;
+      }
+    }
+  }
+  .job-card-list {
+    width: initial;
+    justify-content: center;
+    margin: 0 0 -30px -30px;
+
+    & > li {
+      margin: 0 0 30px 30px;
+    }
+  }
+  .jobs {
+    &__list-wrapper {
+      margin-bottom: 30px;
+    }
+
+  }
+  .job {
+    &__row {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    &__cont {
+      max-width: 100%;
+      margin-bottom: 30px;
+    }
+  }
+  .side-filter {
+    .sf {
+
+      &__filters {
+        display: flex;
+        margin: 0 0 0 -20px;
+        flex-flow: row wrap;
+
+        & > * {
+          width: calc(50% - 20px);
+          margin: 0 0 20px 20px;
+        }
+      }
+
+      &__block {
+        margin: 0 0 20px 20px;
+
+        &:not(:last-child) {
+          margin: 0 0 20px 20px;
+        }
+
+        &_full {
+          width: calc(100% - 20px);
+        }
+      }
+
+    }
+  }
+  .blog-card-list {
+    margin: 0 ;
+    li {
+      width: 100%;
+      margin: 0;
+      &:not(:last-child){
+        margin-bottom: 50px;
+      }
+    }
+  }
+  .blog-card{
+    &_2{
+      &.blog-card{
+        .blog-card{
+          &__img{
+            height: 180px;
+          }
+
+        }
+      }
+    }
+  }
+  .blog-card-list-2{
+    margin: 0 0 -40px -50px;
+    li{
+      width: calc(50% - 50px);
+      margin: 0 0 40px 50px;
+    }
+  }
+  .blog{
+    &__img{
+      height: 327px;
+    }
+
+  }
+  .section-15{
+    .s15{
+      &__row{
+        flex-direction: column;
+      }
+      &__form-wrapper{
+        max-width: 100%;
+        margin: 0 0 40px 0;
+      }
+      &__text{
+        max-width: 100%;
+        margin: 0;
+        order: 3;
+      }
+    }
+  }
+  .bg{
+    background-attachment: scroll;
+  }
+}
+
+@include media(576) {
+  .popup-1{
+    padding: 40px 15px;
+  }
+  #site {
+    padding: 10px 10px 0 10px;
+  }
+  .header {
+    top: 30px;
+    padding: 0 30px;
+  }
+  .fixed {
+    padding: 0 10px;
+  }
+  .logo {
+    max-width: 100px;
+  }
+  .hamburger {
+    div {
+      height: 7px;
+      width: 7px;
+    }
+  }
+  .first {
+    height: calc(100vh - 10px);
+  }
+  .title-2 {
+    font-size: 36px;
+  }
+  .title-main {
+    font-size: 48px;
+  }
+  .title-underline {
+    &_2 {
+      &:after {
+        left: 3px;
+        width: 40px;
+      }
+    }
+  }
+  .title-1 {
+    font-size: 27.72px;
+  }
+  .subtitle {
+    font-size: 16px;
+  }
+  .subtitle-2 {
+    font-size: 18.56px;
+  }
+  .subtitle-3 {
+    font-size: 16px;
+  }
+  .section-2 {
+    .s2 {
+      &__descr-row {
+        &:not(:last-child) {
+          margin-bottom: 20px;
+        }
+      }
+
+      &__circle-block {
+        width: 100%;
+        max-width: 200px;
+        height: 200px;
+        padding: 41px 22px;
+
+      }
+    }
+  }
+  .descr-block {
+    & > * {
+      &:not(:last-child) {
+        margin-bottom: 10px;
+      }
+    }
+
+    & > h4 {
+      &:not(:first-child) {
+        margin-top: 15px;
+      }
+    }
+  }
+  .list-2 {
+    li {
+      width: calc(50% - 20px);
+    }
+  }
+  .section-5 {
+    height: 170.24px;
+  }
+  .menu {
+    &__header {
+      padding-right: 40px;
+    }
+
+    &__nav {
+      padding: 80px 15px 50px 15px;
+
+      a {
+        &:not(:last-child) {
+          margin-bottom: 22px;
+        }
+      }
+    }
+
+    &__color-block {
+      padding: 20px 15px;
+    }
+  }
+  .descr-row {
+    flex-direction: column;
+    margin: 0;
+
+    & > * {
+      width: 100%;
+      margin: 0;
+
+      &:not(:last-child) {
+        margin-bottom: 10px;
+      }
+
+      &.wide {
+        width: 100%;
+      }
+    }
+  }
+  .section-padding {
+    padding: 20px 0;
+  }
+  .first-2 {
+    padding-top: 100px;
+    &__pattern {
+      right: -130px;
+      max-width: 200px;
+      transform: none !important;
+    }
+
+
+    &__title-block {
+      &:not(:last-child) {
+        margin-bottom: 15px;
+      }
+    }
+  }
+  .process-card-list {
+    li {
+      width: calc(50% - 33px);
+    }
+  }
+  .process-card {
+    .pc {
+      &__img {
+        max-width: 70px;
+        height: 70px;
+      }
+
+      &__number {
+        margin: -20px 0 5px 0;
+      }
+    }
+
+    &_2 {
+      .pc {
+        &__img {
+          margin-bottom: 10px;
+        }
+      }
+    }
+  }
+  .text-block {
+    padding: 15px;
+
+  }
+  .bubble-number {
+    width: 150px;
+    height: 150px;
+    border-width: 10px;
+  }
+  .title-mb {
+    margin-bottom: 20px;
+  }
+  .card-1 {
+    padding: 15px;
+  }
+  .card-1-list {
+    li {
+      &:not(:last-child) {
+        margin-bottom: 20px;
+      }
+    }
+  }
+  .card-2 {
+    padding: 15px 38px 15px 15px;
+    &:hover {
+      box-shadow: 0 3px 15px rgba(0, 0, 0, 0.05);
+      &:after {
+        border-color: $color_black;
+        background-color: $color_white;
+      }
+    }
+  }
+  .card-2-list {
+    margin: 0;
+
+    li {
+      width: 100%;
+      margin: 0;
+
+      &:not(:last-child) {
+        margin-bottom: 20px;
+      }
+    }
+  }
+  .section-11 {
+    .s11 {
+      &__descr-row {
+        margin-bottom: 15px;
+      }
+    }
+  }
+  .card-3-list {
+    margin: 0;
+
+    li {
+      width: 100%;
+      margin: 0;
+
+      &:not(:last-child) {
+        margin-bottom: 30px;
+      }
+    }
+  }
+  .card-3 {
+    &__img {
+      height: auto;
+      max-width: 50px;
+    }
+  }
+  .job {
+    &__title {
+      margin-bottom: 25px;
+    }
+
+    &__back {
+      margin-bottom: 15px;
+    }
+  }
+  .detail-block {
+    width: 95px;
+    height: 95px;
+  }
+  .detail-block-list {
+    margin: 0 0 -20px -20px;
+    justify-content: center;
+
+    li {
+      margin: 0 0 20px 20px;
+    }
+  }
+  .recruiter-block {
+    .rb {
+      &__img {
+        width: 160px;
+        height: 160px;
+        margin-bottom: 15px;
+      }
+
+    }
+  }
+  .blog-card {
+    &__img {
+      height: 209px;
+    }
+    &_2{
+      &.blog-card{
+        .blog-card{
+          &__top-block{
+            margin-bottom: 30px;
+          }
+        }
+      }
+    }
+  }
+  .blog-card-list-2{
+    margin: 0 ;
+    li{
+      width: 100%;
+      margin: 0 ;
+      &:not(:last-child){
+        margin-bottom: 40px;
+      }
+    }
+  }
+  .blog{
+    &__img{
+      height: 261.6px;
+    }
+    &__descr-block {
+      h4 {
+        &:not(:last-child) {
+          margin-bottom: 15px;
+        }
+      }
+
+
+    }
+  }
+}
+
+@include media(410) {
+  .list-2 {
+    margin: 0 0 -20px 0;
+
+    li {
+      width: 100%;
+      margin: 0 0 20px 0;
+    }
+  }
+  .section-15{
+    .s15{
+      &__form{
+        margin-bottom: 20px;
+      }
+      &__descr{
+        margin-bottom: 20px;
+      }
+    }
+  }
+  .contact-form{
+    .cf {
+      &__inputs {
+        margin: 0 0 20px 0;
+
+        & > * {
+          width: 100%;
+          margin: 0 ;
+          &:not(:last-child){
+            margin-bottom: 20px;
+          }
+          &.full {
+            width: 100%;
+          }
+        }
+      }
+      &__bottom{
+        flex-direction: column;
+      }
+      &__check {
+        max-width: 100%;
+        margin: 0 0 20px 0;
+      }
+    }
+  }
+  .label-1 {
+    &__title {
+      margin-bottom: 8px;
+    }
+  }
+}

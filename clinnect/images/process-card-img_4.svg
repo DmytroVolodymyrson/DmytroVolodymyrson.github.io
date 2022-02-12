@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="127.5" height="127.5" viewBox="0 0 127.5 127.5">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ec6d6e"/>
+      <stop offset="1" stop-color="#932769"/>
+    </linearGradient>
+  </defs>
+  <g id="process-card-img_4" transform="translate(-2 -2)">
+    <path id="Path_68" data-name="Path 68" d="M19,23,2,40,65.75,78.25,129.5,40l-17-17Z" transform="translate(0 23.625)" fill="url(#linear-gradient)"/>
+    <path id="Path_69" data-name="Path 69" d="M10,2h93.5V129.5H10Z" transform="translate(9 0)" fill="url(#linear-gradient)"/>
+    <path id="Union_5" data-name="Union 5" d="M0,108.375V0H76.5V108.375Z" transform="translate(27.499 10.501)" fill="#fff"/>
+    <path id="Union_7" data-name="Union 7" d="M0,101.977V0H71.931V101.977Z" transform="translate(29.783 13.7)" fill="url(#linear-gradient)"/>
+    <path id="Path_72" data-name="Path 72" d="M129.5,31V96.875H2V31L65.75,69.25Z" transform="translate(0 32.625)" fill="url(#linear-gradient)"/>
+    <path id="Path_73" data-name="Path 73" d="M65.75,51.47l-6.743-4.046L2,79.1H129.5L73.528,46.8Z" transform="translate(0 50.405)" fill="url(#linear-gradient)"/>
+    <path id="Path_74" data-name="Path 74" d="M23,14H61.25V39.5H23Z" transform="translate(23.625 13.5)" fill="#fff"/>
+    <path id="Path_75" data-name="Path 75" d="M48.25,19.625H44V13.25H31.25v6.375H27v-8.5A2.125,2.125,0,0,1,29.125,9h17a2.125,2.125,0,0,1,2.125,2.125Z" transform="translate(28.125 7.875)" fill="#fff"/>
+    <path id="Path_76" data-name="Path 76" d="M23,14H61.25v8.5H23Z" transform="translate(23.625 13.5)" fill="#fff"/>
+    <path id="Path_77" data-name="Path 77" d="M36,18h4.25v6.375H36Z" transform="translate(38.25 18)" fill="url(#linear-gradient)"/>
+    <path id="Path_78" data-name="Path 78" d="M26,18h4.25v6.375H26Z" transform="translate(27 18)" fill="url(#linear-gradient)"/>
+    <g id="Group_210" data-name="Group 210" transform="translate(33.875 63.625)">
+      <path id="Path_79" data-name="Path 79" d="M17,31H80.75v4.25H17Z" transform="translate(-17 -31)" fill="#fff"/>
+      <path id="Path_80" data-name="Path 80" d="M17,35H80.75v4.25H17Z" transform="translate(-17 -26.5)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,82 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/Montserrat-Medium.woff') format('woff'),
+  url('../fonts/Montserrat-Medium.woff2') format('woff2'),
+  url('../fonts/Montserrat-Medium.ttf') format('ttf');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/Montserrat-Regular.woff') format('woff'),
+  url('../fonts/Montserrat-Regular.woff2') format('woff2'),
+  url('../fonts/Montserrat-Regular.ttf') format('ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src: url('../fonts/icomoon.eot?bblqlm');
+  src: url('../fonts/icomoon.eot?bblqlm#iefix') format('embedded-opentype'),
+  url('../fonts/icomoon.ttf?bblqlm') format('truetype'),
+  url('../fonts/icomoon.woff?bblqlm') format('woff'),
+  url('../fonts/icomoon.svg?bblqlm#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+@font-face {
+    font-family: 'Effra';
+    src: url('../fonts/Effra.ttf') format('truetype'),
+    url('../fonts/Effra.woff') format('woff'),
+    url('../fonts/Effra.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?do49c8');
+  src:  url('../fonts/icomoon.eot?do49c8#iefix') format('embedded-opentype'),
+  url('../fonts/icomoon.ttf?do49c8') format('truetype'),
+  url('../fonts/icomoon.woff?do49c8') format('woff'),
+  url('../fonts/icomoon.svg?do49c8#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.icon-instagram:before {
+  content: "\e904";
+}
+.icon-twitter:before {
+  content: "\e903";
+}
+.icon-email:before {
+  content: "\e902";
+}
+.icon-facebook:before {
+  content: "\e900";
+}
+.icon-linkedin:before {
+  content: "\e901";
+}

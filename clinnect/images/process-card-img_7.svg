@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="128" height="128.001" viewBox="0 0 128 128.001">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ec6d6e"/>
+      <stop offset="1" stop-color="#932769"/>
+    </linearGradient>
+  </defs>
+  <g id="process-card-img_7" transform="translate(0 0.002)">
+    <g id="Group_218" data-name="Group 218" transform="translate(19.549 56.473)">
+      <path id="Path_147" data-name="Path 147" d="M122.645,297.42,89.393,263.57A17.1,17.1,0,0,1,84.6,248.2l-6.4-6.4,26.5-15.9,1.1,1.1a17.128,17.128,0,0,1,15.4,4.823l6.749,6.749-12.3,12.3,2.6,2.6a3.9,3.9,0,0,0,5.347,0l4.435-4.248,15.843,15.845a7.5,7.5,0,0,1,0,10.606Z" transform="translate(-78.198 -225.894)" fill="url(#linear-gradient)"/>
+    </g>
+    <path id="Union_22" data-name="Union 22" d="M22.875,33.806A11.255,11.255,0,0,1,7.95,32.832L0,24.957,19.125,5.906A16.933,16.933,0,0,1,34.5,1.107L35.594,0,51.449,5.231,62.1,15.881l-6.45,6.375a17.082,17.082,0,0,1-4.8,15.45l-12,12.075Z" transform="translate(46.375 56.493)" fill="url(#linear-gradient)"/>
+    <g id="Group_220" data-name="Group 220" transform="translate(0 36.499)">
+      <path id="Path_149" data-name="Path 149" d="M19.505,192.41,0,172.536,26.536,146l19.509,19.981Z" transform="translate(0 -146)" fill="url(#linear-gradient)"/>
+    </g>
+    <g id="Group_224" data-name="Group 224" transform="translate(81.955 35.749)">
+      <g id="Group_223" data-name="Group 223">
+        <g id="Group_222" data-name="Group 222">
+          <g id="Group_221" data-name="Group 221">
+            <path id="Path_151" data-name="Path 151" d="M354.361,190.16l-26.539-26.43L347.33,143l26.536,26.536Z" transform="translate(-327.821 -143)" fill="url(#linear-gradient)"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <path id="Union_21" data-name="Union 21" d="M26.5,53A26.5,26.5,0,1,1,53,26.5,26.5,26.5,0,0,1,26.5,53Z" transform="translate(38 -0.002)" fill="url(#linear-gradient)"/>
+    <path id="Union_23" data-name="Union 23" d="M0,10.928l5.3-5.3,5.3,5.3,3.376-3.375h0L21.537,0l5.3,5.3L13.981,18.157h0L10.6,21.533Z" transform="translate(50.019 16.768)" fill="#fff"/>
+  </g>
+</svg>
