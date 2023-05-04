@@ -1,8 +1,8 @@
 # DmitryVladimirson.github.io
-To see my projects enter https://dmitryvladimirson.github.io/{project-name}
+To see my projects enter https://dmytrovolodymyrson.github.io/{project-name}
 
 For example  
 
-https://dmitryvladimirson.github.io/synchro
+https://dmytrovolodymyrson.github.io/synchro
 
-https://dmitryvladimirson.github.io/weather-app
+https://dmytrovolodymyrson.github.io/weather-app
